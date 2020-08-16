@@ -24,4 +24,8 @@ func main() {
 	var bob = []int32{3, 6, 10}
 	fmt.Printf("Triplets compare of Alice %v & Bob %v is %v\n", alice, bob, tripletsCompare(alice, bob))
 	printLine()
+
+	var matrix = [][]int32{{11, 2, 4}, {4, 5, 6}, {10, 8, -12}}
+	fmt.Printf("Absolute diagonal difference of a square matrix %v is %d\n", matrix, diagonalDiff(matrix))
+	printLine()
 }

@@ -1,7 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
+
+func printLine() {
+	fmt.Println("================================================================================")
+}
 
 func main() {
-  fmt.Println("Hello World")
+	fizzBuzz()
+	printLine()
 }
